@@ -40,7 +40,12 @@ const BookProvider = ({children}) => {
     }
 
     const context = {
-        setStoreBooks,storeBooks,handleMarkAsRead,handleWishList,
+        setStoreBooks,
+        storeBooks,
+        handleMarkAsRead,
+        handleWishList,
+        setWishList,
+        wishList,
     }
     
     return (
