@@ -5,7 +5,7 @@ import AllBooks from '../../Component/HomePage/AllBooks';
 const HomePage = () => {
     return (
         <div>
-            <h2>Home Page</h2>
+         
             <Banner/>
             <AllBooks/>
         </div>
